@@ -348,8 +348,8 @@ document.addEventListener("copy", function () {
     new Vue({
       data: function () {
         this.$notify({
-          title: "哎嘿！复制成功🍬",
-          message: "若要转载最好保留原文链接哦，给你一个大大的赞！",
+          title: "复制成功",
+          message: "转载请保留原文链接",
           position: 'top-left',
           offset: 50,
           showClose: true,
@@ -369,7 +369,7 @@ document.onkeydown = function (e) {
       new Vue({
         data: function () {
           this.$notify({
-            title: "你已被发现😜",
+            title: "你已被发现",
             message: "小伙子，扒源记住要遵循GPL协议！",
             position: 'top-left',
             offset: 50,
@@ -1119,15 +1119,17 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
-    `Future is now 🍭🍭🍭`,
+    `Welcome to ShiroiMiku's Blogs`,
+    `O Lord of Ashes, mayest thou find thy haven of repose.`,
     `
         
-███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
-██      ██    ██ ████  ████ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-█████   ██    ██ ██ ████ ██ ███████ ██      ███████ ███████ ██    ██    ██    
-██      ██    ██ ██  ██  ██ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-██       ██████  ██      ██ ██   ██ ███████ ██   ██ ██   ██  ██████     ██   
+ ░▒▓███████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓█▓▒░▒▓██████████████▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ 
+░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ 
+░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ 
+ ░▒▓██████▓▒░░▒▓████████▓▒░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
+       ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ 
+       ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ 
+░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░    
                                               
 `,
     "小站已经苟活",
@@ -1172,7 +1174,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by ShiroiMiku %c Welcome to ShiroiMiku's Blogs",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1321,11 +1323,11 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
   if (document.hidden) {
     //离开当前页面时标签显示内容
-    document.title = '👀跑哪里去了~';
+    document.title = '跑哪里去了~';
     clearTimeout(titleTime);
   } else {
     //返回当前页面时标签显示内容
-    document.title = '🐖抓到你啦～';
+    document.title = '抓到你啦～';
     //两秒后变回正常标题
     titleTime = setTimeout(function () {
       document.title = OriginTitile;
@@ -2789,7 +2791,7 @@ function createtime() {
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
+  var grt = new Date("06/05/2025 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -2986,7 +2988,7 @@ function setUniverse() {
 
 // 雪花开关
 if (localStorage.getItem("snow") == undefined) {
-  localStorage.setItem("snow", "none");
+  localStorage.setItem("snow", "block");
 }
 document.getElementById("snow").style.display = localStorage.getItem("snow");
 function setSnow() {
