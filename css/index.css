@@ -1393,7 +1393,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: https://ShiroitakeXIAO.github.io/picx-images-hosting/Touhou-Project-Background.6bhbjvjko7.jpg);
+  background: url(https://ShiroitakeXIAO.github.io/picx-images-hosting/Touhou-Project-Background.6bhbjvjko7.jpg);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -5101,7 +5101,7 @@ mjx-container[display],
   border-radius: 5px !important;
 }
 [data-theme="dark"] #web_bg {
-  background: https://ShiroitakeXIAO.github.io/picx-images-hosting/Cirno-starry.491ivtkvox.jpg;
+  background: url(https://ShiroitakeXIAO.github.io/picx-images-hosting/Cirno-starry.491ivtkvox.jpg);
   background-attachment: local;
   background-position: center;
   background-size: cover;
