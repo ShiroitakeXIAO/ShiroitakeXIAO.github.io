@@ -5109,14 +5109,14 @@ mjx-container[display],
 }
 @media screen and (max-width: 800px) {
   #web_bg {
-    background: var(--mobileday-bg);
+    background: url(https://ShiroitakeXIAO.github.io/picx-images-hosting/Touhou-Project-Background-m.lvz9w0dtn.jpg);
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
   [data-theme="dark"] #web_bg {
-    background: var(--mobilenight-bg);
+    background: url(https://ShiroitakeXIAO.github.io/picx-images-hosting/Cirno-starry-m.7w72kxrytn.jpg);
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
