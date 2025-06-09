@@ -3008,9 +3008,9 @@ if (localStorage.getItem("fpson") == undefined) {
 }
 function fpssw() {
   if (document.getElementById("fpson").checked) {
-    localStorage.setItem("fpson", "1");
-  } else {
     localStorage.setItem("fpson", "0");
+  } else {
+    localStorage.setItem("fpson", "1");
   }
   setTimeout(reload, 600);
 }
