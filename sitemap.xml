@@ -254,6 +254,15 @@
   </url>
   
   <url>
+    <loc>https://www.shiroimiku.me/life/darkroom/README.html</loc>
+    
+    <lastmod>2025-05-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.shiroimiku.me/life/darkroom/contributing.html</loc>
     
     <lastmod>2025-05-23</lastmod>
@@ -263,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiroimiku.me/life/darkroom/README.html</loc>
+    <loc>https://www.shiroimiku.me/life/darkroom/browserWarning.html</loc>
     
     <lastmod>2025-05-23</lastmod>
     
@@ -299,16 +308,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiroimiku.me/life/darkroom/browserWarning.html</loc>
-    
-    <lastmod>2025-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiroimiku.me/categories/index.html</loc>
+    <loc>https://www.shiroimiku.me/tags/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -317,7 +317,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiroimiku.me/box/gallery/index.html</loc>
+    <loc>https://www.shiroimiku.me/categories/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -335,6 +335,15 @@
   </url>
   
   <url>
+    <loc>https://www.shiroimiku.me/box/gallery/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.shiroimiku.me/box/nav/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -344,16 +353,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiroimiku.me/tags/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.shiroimiku.me/site/census/index.html</loc>
+    <loc>https://www.shiroimiku.me/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -371,7 +371,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiroimiku.me/social/fcircle/index.html</loc>
+    <loc>https://www.shiroimiku.me/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -433,13 +433,6 @@
   </url>
   
   <url>
-    <loc>https://www.shiroimiku.me/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2025-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.shiroimiku.me/tags/%E4%BA%92%E8%81%94%E7%BD%91/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -454,7 +447,7 @@
   </url>
   
   <url>
-    <loc>https://www.shiroimiku.me/tags/AI/</loc>
+    <loc>https://www.shiroimiku.me/tags/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -462,6 +455,13 @@
   
   <url>
     <loc>https://www.shiroimiku.me/tags/%E7%9F%AD%E7%AF%87/</loc>
+    <lastmod>2025-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.shiroimiku.me/tags/AI/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -498,14 +498,14 @@
   </url>
   
   <url>
-    <loc>https://www.shiroimiku.me/categories/%E8%AE%BE%E8%AE%A1/</loc>
+    <loc>https://www.shiroimiku.me/categories/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.shiroimiku.me/categories/%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>https://www.shiroimiku.me/categories/%E8%AE%BE%E8%AE%A1/</loc>
     <lastmod>2025-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
